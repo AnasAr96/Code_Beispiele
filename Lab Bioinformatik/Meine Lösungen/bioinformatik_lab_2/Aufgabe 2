@@ -1,0 +1,27 @@
+
+nach dem Instalieren von samtools
+Die Ausgabe der Konsole
+
+
+
+samtools coverage Alignment_Data.bam
+#rname	    startpos	endpos	numreads	covbases	coverage	meandepth	meanbaseq	meanmapq
+burn-in	1	48502	    4644	48502	    100	        904.135	    255	        58.6
+
+
+
+
+samtools coverage Alignment_Data.sam
+#rname	    startpos	endpos	numreads	covbases	coverage	meandepth	meanbaseq	meanmapq
+burn-in	1	48502	    4644	48502	    100	        904.135	    255	        58.6
+
+
+samtools coverage Alignment_Data_sorted.bam                                                                      ✔  base  ▓▒░
+#rname	    startpos	endpos	numreads	covbases	coverage	meandepth	meanbaseq	meanmapq
+burn-in	1	48502	    4644	48502	    100	        904.135	    255	        58.6
+
+
+
+
+
+Die Aufgabe 2 war erst dann lösbar, nachdem ich den sam datei in bam umgewandelt habe, und dann die bam datei einen index über sametools gegeben habe
